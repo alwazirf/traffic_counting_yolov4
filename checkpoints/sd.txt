@@ -1,0 +1,1 @@
+folder ini merupakan hasil mengubah dataset .weight ke bentuk .pb
