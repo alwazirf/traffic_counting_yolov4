@@ -14,7 +14,7 @@ Make sure to use CUDA Toolkit version 10.1 as it is the proper version for the T
 https://developer.nvidia.com/cuda-10.1-download-archive-update2
 
 ## Downloading My Pre-trained Weights
-USE MY FINAL CUSTOM TRAINED CUSTOM WEIGHTS: 
+USE MY FINAL CUSTOM TRAINED CUSTOM WEIGHTS: https://drive.google.com/file/d/1EYKcptLtDeLJJNhYKUpyOKqWdzhkopk4/view?usp=sharing
 
 Copy and paste finalcustom .weights file into the 'data' folder
 
@@ -23,7 +23,7 @@ To implement YOLOv4 using TensorFlow, first we convert the .weights into the cor
 ```bash
 # Convert darknet weights to tensorflow
 ## custom
-python save_model.py --weights ./data/finalcustom.weights --output ./checkpoints/finalcustom-416 --input_size 416 --model yolov4 
+python save_model.py --weights ./data/customfinals.weights --output ./checkpoints/customfinals-416 --input_size 416 --model yolov4 
 
 # Run yolov4 tensorflow model
 python main.py
