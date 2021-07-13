@@ -16,7 +16,7 @@ https://developer.nvidia.com/cuda-10.1-download-archive-update2
 ## Downloading My Pre-trained Weights
 USE MY FINAL CUSTOM TRAINED CUSTOM WEIGHTS: https://drive.google.com/file/d/1EYKcptLtDeLJJNhYKUpyOKqWdzhkopk4/view?usp=sharing
 
-Copy and paste finalcustom .weights file into the 'data' folder
+Copy and paste customfinals .weights file into the 'data' folder
 
 ## YOLOv4 Using Tensorflow (tf, .pb model)
 To implement YOLOv4 using TensorFlow, first we convert the .weights into the corresponding TensorFlow model files and then run the model.
